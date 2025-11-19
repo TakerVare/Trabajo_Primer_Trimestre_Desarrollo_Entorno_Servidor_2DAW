@@ -1,6 +1,6 @@
 using Models;
 namespace Models;
-using Models.TarjetaCredito;
+
 
 public class Cliente{
 
@@ -19,7 +19,7 @@ public class Cliente{
         this.activo = true;
     }
 
-    public Cliente(idCliente _idCliente, nombre _nombre, apellido _apellido, email _email, password _password, telefono _telefono, tarjetasCredito _tarjetasCredito)
+    public Cliente(int _idCliente, string _nombre, string _apellido, string _email, string _password, string _telefono, List<TarjetaCredito> _tarjetasCredito)
     {
         this.idCliente = _idCliente;
         this.nombre = _nombre;

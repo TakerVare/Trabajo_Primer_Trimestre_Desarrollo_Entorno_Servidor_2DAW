@@ -16,7 +16,7 @@ public class TarjetaCredito {
         this.activo = true;
     }
 
-    public TarjetaCredito(idTarjetaCredito _idTarjetaCredito, descripcion _descripcion, numeroTarjeta _numeroTarjeta, fechaCaducidad _fechaCaducidad, fechaCreacion _fechaCreacion )
+    public TarjetaCredito(int _idTarjetaCredito, string _descripcion, string _numeroTarjeta, string _fechaCaducidad, DateTime _fechaCreacion )
     {
         this.idTarjetaCredito = _idTarjetaCredito;
         this.descripcion = _descripcion;
