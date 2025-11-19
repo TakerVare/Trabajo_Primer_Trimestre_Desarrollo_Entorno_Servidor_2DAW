@@ -7,7 +7,7 @@ public class TarjetaCredito {
     public string? descripcion {get;set;}
     public string? numeroTarjeta {get;set;}
     public string? fechaCaducidad {get;set;}
-    public dateTime? fechaCreacion {get;set;}
+    public DateTime? fechaCreacion {get;set;}
     public bool activo {get;set;}
 
 
