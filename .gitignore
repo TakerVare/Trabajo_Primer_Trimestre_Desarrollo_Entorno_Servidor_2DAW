@@ -1,0 +1,23 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+
+# Logs y temporales
+*.log
+*.tmp
+*.cache
+
+# Archivos de usuario
+*.user
+*.userosscache
+*.suo
+
+# Configuración de sistema
+.DS_Store
+Thumbs.db
+
+# Entornos
+.env
