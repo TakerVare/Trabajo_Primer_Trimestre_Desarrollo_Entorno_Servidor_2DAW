@@ -1,23 +1,33 @@
-# Build
-bin/
-obj/
-
-# Visual Studio
-.vs/
-
-# Logs y temporales
-*.log
-*.tmp
-*.cache
-
-# Archivos de usuario
-*.user
-*.userosscache
 *.suo
-
-# Configuración de sistema
-.DS_Store
-Thumbs.db
-
-# Entornos
-.env
+*.backup
+*.user
+*.dbmdl
+*.pptx
+*.psess
+*.orig
+*.xml
+*.~vsd
+*.zip
+*.sublime-project
+*.sublime-workspace
+*.exe
+*.avi
+*.mp4
+*.mov
+*.rar
+*.mdf
+*.ldf
+**/nuspec.list
+**/packages/
+**/.sass-cache/
+**/node_modules/
+**/bower_components/
+*/Performance/*TestResults.txt
+**/bin
+**/obj
+**/*.log.1
+**/*.log.*
+*.log
+*.db
+.vs/
+Publish/
