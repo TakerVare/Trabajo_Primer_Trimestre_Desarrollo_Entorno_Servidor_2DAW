@@ -20,4 +20,3 @@ Clase base que representa un producto genérico en el sistema del restaurante.
 
 
 
-

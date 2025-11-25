@@ -1,24 +1,32 @@
+using Models;
 namespace Models;
 
-public abstract class Producto {
 
-    public int Id  {get;set;}
-    public string Nombre {get;set;} = "";
-    public double Precio {get;set;} = 0.0;
+public class Producto{
 
-    public Producto(){}
+    public int? idProducto {get; set;}
+    public string? descripcion {get; set;}
+    public double? precio {get; set;}
+    public int? idTipoIVA {get; set;}
+    public DateTime? fechaCreacion  {get; set;}
+    public bool activo {get; set;}
 
-    public Producto(string nombre, double precio) {
-        Nombre = nombre;
-        Precio = precio;
 
-        if (precio < 0) {
-            throw new ArgumentException("El precio no puede ser negativo");
-        }
+    public Producto()
+    {
+        activo = true;
     }
 
-    public abstract void MostrarDetalles();
-
-   
-
+    public Producto(int _idProducto, string _descripcion, double _precio, int _idTipoIVA, DateTime _fechaCreacion)
+    {
+        idProducto = _idProducto;
+        descripcion = _descripcion;
+        precio = _precio;
+        idTipoIVA = _idTipoIVA;
+        fechaCreacion = _fechaCreacion;
+        activo = true; 
+        
+    }
+    
+    
 }
